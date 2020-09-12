@@ -4,12 +4,12 @@
 1. Run schema.sql - tables <code>happiness</code> and <code>country</code> should be created
 
 1. Create a <code>config.py</code> file in the directory that the database lives, that contains username and password information to access your postgres server
-	1. ex. the same location as <code>schema.sql</code>, <code>query.sql</code>, etc.
+	* ex. the same location as <code>schema.sql</code>, <code>query.sql</code>, etc.
 
 1. Open the <code>main.ipynb</code> jupyter notebook and run it top to bottom
-	1. to see if it worked correctly,  scroll down to cell <code>[7]</code> to make sure the table names show up
+	* to see if it worked correctly,  scroll down to cell <code>[7]</code> to make sure the table names show up
 
 1. In postgres, open the <code>query.sql</code> file and run the top 2 queries to veryify data has imported correctly
-	1. these queries are under the notation <code>-- Test to see if tables created</code>
+	* these queries are under the notation <code>-- Test to see if tables created</code>
 
 1. If data queries succesfully, run the <code>-- Join tables</code> section
